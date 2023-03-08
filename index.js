@@ -9,7 +9,7 @@ const todos = [
 ];
 
 app.get("/", (req, res) => {
-  res.send("ToDo API with node !!!! !!!! !!!!");
+  res.send("ToDo API with node !");
 });
 
 app.get("/api/todos", (req, res) => {
